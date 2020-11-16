@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "516116056330",
+    "firebase_url": "https://cooking-share-bcf9c.firebaseio.com",
+    "project_id": "cooking-share-bcf9c",
+    "storage_bucket": "cooking-share-bcf9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516116056330:android:733dc230047fb8704fd2f3",
+        "android_client_info": {
+          "package_name": "com.example.cooking_share"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516116056330-mnlp9cuok6errrucudaengofr1h84et4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUt7wk7lWRImNHQ30_4YBMM0q5U0eLXDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516116056330-mnlp9cuok6errrucudaengofr1h84et4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516116056330:android:38a76585d4e2b7b84fd2f3",
+        "android_client_info": {
+          "package_name": "com.puzzleleaf.firebaseauthproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516116056330-mnlp9cuok6errrucudaengofr1h84et4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUt7wk7lWRImNHQ30_4YBMM0q5U0eLXDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516116056330-mnlp9cuok6errrucudaengofr1h84et4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
