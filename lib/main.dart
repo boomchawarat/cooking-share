@@ -1,6 +1,7 @@
 import 'package:cooking_share/repositories/user_repository.dart';
-import 'package:cooking_share/screens/home_screen.dart';
+import 'package:cooking_share/screens/home/home_page.dart';
 import 'package:cooking_share/screens/login/login_screen.dart';
+import 'package:cooking_share/screens/order/orders_page.dart';
 import 'package:cooking_share/theme/app_theme.dart';
 import 'package:cooking_share/widgets/loading_widget.dart';
 
@@ -47,11 +48,11 @@ class MyApp extends StatelessWidget {
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
         builder: (context, state) {
           if (state is AuthenticationFailure) {
-            return LoginScreen(userRepository: _userRepository);
+            return OrdersPage();
           }
 
           if (state is AuthenticationSuccess) {
-            return HomeScreen(user: state.firebaseUser);
+            return OrdersPage();
           }
 
           return Scaffold(
